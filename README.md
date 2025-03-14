@@ -34,12 +34,6 @@ A robust text classification system with multiple models, comprehensive evaluati
 
 </div>
 
-## 📋 Project Workflow
-
-<p align="center">
-  <img src="assets/images/Text Classification Project_ End-to-End Summary - visual selection.png" alt="Project Workflow" width="80%">
-</p>
-
 ## 🌟 Key Features
 
 - **Multi-Model Support**: Logistic Regression, Random Forest, SVM, MLP, CatBoost
@@ -128,24 +122,6 @@ mlflow ui --port 5004
 open http://localhost:5002
 ```
 
-### Visualizations
-
-#### 1. Model Performance Comparison
-[![ROC Curves](assets/images/model_comparison_roc.png)](https://github.com/Monjil999/text-classification-project/blob/main/assets/images/model_comparison_roc.png)
-*Comparative ROC curves showing Logistic Regression and CatBoost achieving superior AUC scores > 0.95*
-
-#### 2. Confusion Matrix Analysis
-[![Confusion Matrix](assets/images/confusion_matrix.png)](https://github.com/Monjil999/text-classification-project/blob/main/assets/images/confusion_matrix.png)
-*Detailed confusion matrix highlighting high precision and recall across all classes*
-
-#### 3. Feature Importance
-[![Feature Analysis](assets/images/feature_importance.png)](https://github.com/Monjil999/text-classification-project/blob/main/assets/images/feature_importance.png)
-*Top contributing features identified through model analysis, showing key text patterns and categorical variables*
-
-#### 4. Experiment Dashboard
-[![MLflow Dashboard](assets/images/mlflow_dashboard.png)](https://github.com/Monjil999/text-classification-project/blob/main/assets/images/mlflow_dashboard.png)
-*Comprehensive experiment tracking interface displaying metrics, parameters, and artifacts*
-
 ### Future Enhancements
 - Integration with model registry for production deployment
 - Automated metric alerting and monitoring
@@ -179,7 +155,8 @@ For detailed documentation:
 
 ## 🔮 Future Scope & Vision
 
-1. **Real-time Model Serving**
+1. **Add ANN model and Real-time Model Serving**
+   - Add ANN model
    - Deploy models using FastAPI/Flask for real-time predictions
    - Implement model versioning and A/B testing capabilities
    - Add request queuing and load balancing for high throughput
