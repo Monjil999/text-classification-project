@@ -37,7 +37,7 @@ A robust text classification system with multiple models, comprehensive evaluati
 ## 📋 Project Workflow
 
 <p align="center">
-  <img src="assets/images/Text Classification Project_ End-to-End Summary - visual selection.png" alt="Project Workflow" width="100%">
+  <img src="assets/images/Text Classification Project_ End-to-End Summary - visual selection.png" alt="Project Workflow" width="80%">
 </p>
 
 ## 🌟 Key Features
